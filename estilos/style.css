@@ -4,14 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -22,11 +30,12 @@ header {
 
 header h1 {
     padding-top: 50px;
-    font-family: "Passion One", sans-serif;
+    font-family: var(--fonte2);
     font-weight: 700;
     font-style: normal;
-    font-size: 3em;
+     font-size: 10vw; /* Não é a melhor maneira */
     font-variant: small-caps;
+
 }
 
 header p {
@@ -59,6 +68,7 @@ main {
 section {
     padding: 10vh 0 10vh 30px;
     line-height: 2em;
+    font-size: 3vw;
 }
 
 .normal {
@@ -73,6 +83,7 @@ section {
 
 pre {
     white-space: pre-line;
+    font-family: var(--fonte3);
 }
 
 #joaninha {
@@ -93,7 +104,10 @@ pre {
 
 .imagem pre {
     background-color: rgba(0, 0, 0, 0.493);
-    width: fit-content;
+    display: inline-block;
+    padding: 5px;
+    /* Alternativa:
+    width: fit-content; */
 }
 
 footer {
