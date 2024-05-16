@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+    line-height: 2em;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+article {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#joaninha {
+    color: white;
+    background: black url("../imagens/background001.jpg") right center/cover no-repeat fixed;
+    margin: 30px -30px;
+    padding: 40px;
+    box-shadow: inset 0 0 15px 3px rgba(0, 0, 0, 0.322);
+}
+
+#joaninha p {
+    background-color: rgba(0, 0, 0, 0.493);
+    width: fit-content;
+}
+
+#carta {
+    color: white;
+    background: black url("../imagens/background002.jpg") right center/cover no-repeat fixed;
+    margin: 30px -30px;
+    padding: 40px;
+    box-shadow: inset 0 0 15px 3px rgba(0, 0, 0, 0.322);
+}
+
+#carta p {
+    background-color: rgba(0, 0, 0, 0.493);
+    width: fit-content;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
